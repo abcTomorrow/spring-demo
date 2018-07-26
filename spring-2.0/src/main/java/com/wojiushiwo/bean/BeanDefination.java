@@ -7,6 +7,7 @@ public class BeanDefination {
     //扫描包所得beanName
     private String beanName;
     //bean在ioc容器中的名字 即注解value的值
+    //This the name of the bean to call the specified factory method on.
     private String beanFactoryName;
     //是否懒加载
     private boolean lazyInit = true;

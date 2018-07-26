@@ -65,4 +65,8 @@ public class BeanDefinationReader {
         chars[0] += 32;
         return String.valueOf(chars);
     }
+
+    public Properties getProp(){
+        return prop;
+    }
 }
